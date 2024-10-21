@@ -44,7 +44,7 @@ Future<void> main() async {
   }
   prefs = await SharedPreferences.getInstance();
 
-  await dotenv.load();
+  await dotenv.load(fileName: '.env');
 
   runApp(const MyApp());
 }

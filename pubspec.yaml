@@ -112,6 +112,7 @@ flutter:
     - images/
     - icons/
     - fonts/
+    - .env
   fonts:
     - family: RalewayBlack
       fonts:
